@@ -1,4 +1,4 @@
-NATO Phonetic Converter
+# NATO Phonetic Converter
 
 ![Screenshot (10)](https://user-images.githubusercontent.com/87391223/230646581-422a0993-4732-49d8-bb6f-f4d49f5341da.png)
 
@@ -9,12 +9,12 @@ Requirements
     Python 3.x
     pandas library
 
-Installation
+## Installation
 
     Clone or download this repository to your local machine.
     Install the required pandas library by running pip install pandas in your terminal.
 
-Usage
+## Usage
 
     Run the main.py file using your Python interpreter.
     Enter a word that you want to convert into NATO phonetic code words when prompted.
@@ -23,9 +23,9 @@ Usage
 
 
   Enter the word that has to be converted into a nato_phonetic word list: Hello
-  # Output: ['Hotel', 'Echo', 'Lima', 'Lima', 'Oscar']
+   Output: ['Hotel', 'Echo', 'Lima', 'Lima', 'Oscar']
 
-How it works
+## How it works
 
     The program reads the NATO phonetic alphabet data stored in a CSV file using pandas.
     A dictionary comprehension is used to create a dictionary that maps each letter to its corresponding NATO phonetic code word.
