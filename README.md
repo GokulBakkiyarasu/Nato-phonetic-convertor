@@ -43,3 +43,12 @@ List comprehension:
   nato_list = [nato_dictionary[letter] for letter in word]
   ```
   The resulting list of NATO phonetic code words is printed to the console.
+  
+  ## Contributing
+
+Pull requests are welcome. For major changes, please open an issue first
+to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+## Find me on
+[![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-Profile-informational?style=flat&logo=linkedin&logoColor=white&color=0D76A8)](https://www.linkedin.com/in/gokul-bakkiyarasu-531535251)
