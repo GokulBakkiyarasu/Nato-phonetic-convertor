@@ -20,7 +20,7 @@ Usage
     Enter a word that you want to convert into NATO phonetic code words when prompted.
     The program will output a list of NATO phonetic code words corresponding to the letters in the input word.
 
-python
+
 
   Enter the word that has to be converted into a nato_phonetic word list: Hello
   # Output: ['Hotel', 'Echo', 'Lima', 'Lima', 'Oscar']
@@ -30,16 +30,16 @@ How it works
     The program reads the NATO phonetic alphabet data stored in a CSV file using pandas.
     A dictionary comprehension is used to create a dictionary that maps each letter to its corresponding NATO phonetic code word.
 
-python
-
+Dictionary comprehension:
+```python
   nato_dictionary = {row.letter: row.code for (index, row) in nato_data.iterrows()}
-
+```
     The user is prompted to input a word that they want to convert into NATO phonetic code words.
     The input word is converted to uppercase and split into a list of individual characters.
     A list comprehension is used to convert each character in the list to its corresponding NATO phonetic code word using the dictionary created in step 2.
 
-python
-
+List comprehension:
+```python
   nato_list = [nato_dictionary[letter] for letter in word]
-
-    The resulting list of NATO phonetic code words is printed to the console.
+  ```
+  The resulting list of NATO phonetic code words is printed to the console.
